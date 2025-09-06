@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http.equiv="X-UA-Compatible" content="IE=edge">
+        <meta  name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Personal Portfolio Website</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/c049542f00.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+    <div id="header"> 
+         <div class="container">
+            <nav>
+                <img src="logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+         <div class="header-text">
+         <p>STUDENT PROFILE</p>
+         <h1>Hi,I am <span>Kavya</span><br> Nair and i am currently pursuing B.tech in India</h1>
+    </div>
+  </div>
+</div>
+<!-- -----------about---------- -->
+<div id="about">
+    <div class="container"> 
+        <div class="row">
+            <div class="about-col-1">
+            <img src="Google.jpeg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I was brought up in a town named Jamshedpur and also did my schooling there. Both my parents are working.
+                   I have currently shifted to chennai to do higher studies. I like learning new skills to develope my
+                   knowledge to achieve my future goals. Music, old movies and learning about cosmic world inspire me alot.</p>
+
+                   <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('education')">Education</p>
+                    <p class="tab-links" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('achievements')">Achievements</p>
+                   </div>
+                   <div class="tab-contents active-tab" id="education">
+                    <ul>
+                        <li><span>Schooling</span><br>D.B.M.S. ENGLISH SCHOOL(ICSE)</li>
+                        <li><span>Bachelor in technology</span><br>SRM UNIVERSITY OF SCIENCE AND TECHNOLOGY(ECE)</li>
+                    </ul>
+                   </div>
+                   <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Coding</span><br>Java<br>python</li>
+                        <li><span>Public speaking</span><br>Debate</li>
+                        <li><span>Organisation</span><br>Notion</li>
+                    </ul>
+                   </div>
+                   <div class="tab-contents" id="achievements">
+                    <ul>
+                        <li><span>Distinction</span><br>Basketball<br> Athletic</li>
+                        <li><span>President</span><br>Interschool Youth organisation </li>
+                        <li><span>Badges</span><br>Public speaking<br>Top scocer in many subjects</li>
+                    </ul>
+                   </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ---------service-------------- -->
+<div id="service">
+    <div class="container">
+        <h1 class="sub-title">My Hobbies</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+               <h2>Web Design</h2>
+<p>Using html and css i have started making websites and i enjoy it in my free time as its learning new 
+    techniques with fun.</p>
+    <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-regular fa-gem"></i>
+                <h2>Jewellery Designing</h2>
+ <p>I make new jewellery using old and broken pieces of ornaments that are not in use anymore and make it into 
+    something i would use in future.</p>
+     <a href="#">Learn more</a>
+             </div>
+             <div>
+                <i class="fa-solid fa-heart"></i>
+                <h2>Dance</h2>
+ <p>Moving one's body is quite important and with dance i feel free and can let go any stress, live in the 
+    moment and express myself better without having to put any effort.</p>
+     <a href="#">Learn more</a>
+             </div>
+        </div>
+    </div>
+</div>
+<!-- ------------portfolio----------- -->
+<div id="portfolio">
+    <div  class ="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class ="work">
+            <img src="15. CSS Ghost Loading Animation.png">
+            <div class="layer">
+                <h3>Animation using css</h3>
+                <p>The animation is made using css in a website and using this i have also created this website also.</p>
+                <a href="#"><i class="fa-solid fa-hippo"></i></a>
+            </div>
+         </div>
+         <div class="work">
+            <img src="kavya.png">
+            <div class="layer">
+                <h3>Website header using canva</h3>
+                <p>The header is made using canva which can be used in many platforms like linkdin,twitter etc.</p>
+                <a href="#"><i class="fa-solid fa-compass-drafting"></i></a>
+            </div>
+         </div>
+         <div class="work">
+            <img src="Чокер.jpeg">
+            <div class="layer">
+                <h3>Jewellery artwork</h3>
+                <p>This is made by recycling old beads and hence made into something wearable.</p>
+                <a href="#"><i class="fa-solid fa-gift"></i></a>
+            </div>
+         </div>
+         </div>
+         <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!---------contact--------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+      <div class="contact-left">
+        <h1 class="sub-title">Contact Me</h1>
+        <p><i class="fa-solid fa-paper-plane"></i>kavyanair172003@gmail.com</p>
+        <p><i class="fa-solid fa-paper-plane"></i>https://www.linkedin.com/in/kavya-nair-a30ab827a/</p>
+        <div class="social-icons">
+            <a href="http://instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="http://githhub.com/"><i class="fa-brands fa-github"></i></a>
+            </div>
+            <a href="my-cv.pdf" download class="btn btn2">Download Resume</a>
+        </div>
+        <div class="contact-right">
+            <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+        </div>
+     </div>
+  </div>
+  <div class="copyright">
+    <p>Copyright © Kavya<i class="fa-solid fa-check"></i></p>
+  </div>
+</div>
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+function opentab(tabname){
+    for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+    }
+    for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+}
+
+</script>
+
+<script>
+      
+      var sidemeu = document.getElementById("sidemenu");
+
+      function openmenu(){
+        sidemeu.style.right = "0";
+      }
+      function closemenu(){
+        sidemeu.style.right = "-200px";
+      }
+
+</script>
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbycSRhhhsBCrZcWr18cBZkDncNjNxiiY6sLLLWOUE832oYtWxu31iJDoVOJ9EiYhLCX/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully "
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+    </body>
+</html>
